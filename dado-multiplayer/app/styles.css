@@ -1,0 +1,106 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+.dado-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; 
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 24px;
+  text-align: center; 
+}
+
+
+.p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+
+.divDado {
+  display: flex;
+  gap: 24px;
+}
+
+
+.divKey {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+
+div img {
+  width: 100px;
+  height: 100px; 
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100px; 
+}
+
+
+button:disabled {
+  background-color: #0056b3;
+  cursor: not-allowed;
+}
+
+
+button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+
+div p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black; 
+}
+
+
+button.reiniciar {
+  background-color: #28a745; 
+  color: white;
+  padding: 12px 24px;
+  font-size: 1rem; 
+  border-radius: 5px;
+  width: 200px; 
+  margin-top: 20px;
+}
+
+
+button.reiniciar:hover {
+  background-color:#218838;
+}
