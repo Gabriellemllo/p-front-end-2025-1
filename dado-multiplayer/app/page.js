@@ -31,7 +31,7 @@ export default function Home() {
     setCurrent(current === counters.length - 1 ? 0 : current + 1); 
 
     if (copy[0].length === rounds && copy[1].length === rounds) {
-      setRounds(rounds + 1); // Avança para a próxima rodada
+      setRounds(rounds + 1); 
 
       const roundWinner = copy[0][rounds - 1] > copy[1][rounds - 1] ? 1 : 2;
       setRoundWinners((prevWinners) => [
